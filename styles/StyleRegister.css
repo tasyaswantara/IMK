@@ -1,0 +1,92 @@
+body { 
+    font-family: Arial, sans-serif; 
+    display: flex; 
+    justify-content: right; 
+    align-items: center; 
+    height: 100vh; 
+    margin-right: 60px; 
+    /* background: -o-linear-gradient(12, 12, 13); */
+}
+    .Register-form {
+        
+        padding: 30px;
+        border-radius: 5px;
+        width: 100%;
+        max-width: 400px;
+        color: #fff;
+    }
+      
+
+    .Register-form h1 {
+        text-align: left;
+        margin-bottom: 20px;
+        color: #fff;
+
+    }
+    .Register-form Penjelasan{
+        
+    }
+
+    .Register-form label {
+        display: block;
+        margin-bottom:6px;
+    }
+
+    .Register-form input[type="nama"],
+    .Register-form input[type="email"],
+    .Register-form input[type="sandi"],
+    .Register-form input[type="ulang"] {
+        width: 96%;
+        padding: 8px;
+        background-color: #fff;
+        color: #fff;
+        border: #6D16FE;
+        border-radius: 3px;
+        display: block;
+        margin-bottom: 10px;       
+    }
+
+    .Register-form input[type="submit"] {
+        width: 100%;
+        padding: 8px;
+        background-color: #fff;
+        color: #000;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .Register-form input[type="submit"]:hover {
+        background-color: #6D16FE;
+        color: #fff;
+    }
+
+    .Register-form a.p {
+        display: flex;
+        text-decoration: none;
+    }
+
+    .Register-form a:hover {
+        text-decoration: underline;
+        color: #000;
+    }
+    .Bantuan{
+        background-color: #fff;
+        margin-bottom: 10px;
+        margin-left: 250px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        padding-right: 3px;
+        gap: 10px;
+        display: flex;
+
+    }
+    .img{
+        height: 1px;
+        width: 1px;
+    }
